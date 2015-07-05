@@ -1,0 +1,9 @@
+web:
+  build: nginx
+  ports:
+    - 80:80
+  links:
+    - app:php
+
+app:
+  build: phpfpm

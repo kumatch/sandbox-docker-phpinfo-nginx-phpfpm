@@ -1,6 +1,14 @@
 sandbox-docker-phpinfo-apache
 ======
 
+## Compose
+
+```
+$ docker-compose up -d
+```
+
+And browse by HTTP.
+
 
 ## php-fpm
 
